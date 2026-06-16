@@ -1,4 +1,4 @@
-using Produtos.Application.Handlers;
+using ProdutosApi.Application.Handlers;
 using ProdutosApi.Presentation.Extensions;
 using PrrodutoApi.Infrastructure.Extensions;
 

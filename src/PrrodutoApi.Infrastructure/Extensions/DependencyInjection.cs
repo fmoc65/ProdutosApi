@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using MongoDB.Driver;
-using Produtos.Application.Mappers;
+using ProdutosApi.Application.Mappers;
 using ProdutosApi.Domain.Interfaces;
 using PrrodutoApi.Infrastructure.Repositories;
 

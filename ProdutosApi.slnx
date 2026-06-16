@@ -1,5 +1,5 @@
 <Solution>
-  <Project Path="src/Produtos.Application/Produtos.Application.csproj" />
+  <Project Path="src/ProdutosApi.Application/ProdutosApi.Application.csproj" />
   <Project Path="src/ProdutosApi.Domain/ProdutosApi.Domain.csproj" />
   <Project Path="src/ProdutosApi.Presentation/ProdutosApi.Presentation.csproj" />
   <Project Path="src/PrrodutoApi.Infrastructure/PrrodutoApi.Infrastructure.csproj" />

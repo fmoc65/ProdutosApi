@@ -17,6 +17,11 @@ namespace PrrodutoApi.Infrastructure.Repositories
             _collection = database.GetCollection<Pedido>("Pedidos");
         }
 
+        public async ValueTask InserirPedido(Pedido pedido, CancellationToken cancellationToken)
+        {
+            await _collection.InsertOneAsync(pedido, cancellationToken: cancellationToken);
+        }
+
         public async ValueTask<IReadOnlyCollection<Pedido>> ListarTodosAsync(CancellationToken cancellationToken)
         {
             // O ToListAsync do driver do Mongo já faz o streaming dos dados de forma eficiente

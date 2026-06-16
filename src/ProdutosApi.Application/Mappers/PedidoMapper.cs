@@ -1,9 +1,9 @@
-﻿using Produtos.Application.DTOs;
+﻿using ProdutosApi.Application.DTOs;
 using ProdutosApi.Domain.Entities;
 using Riok.Mapperly.Abstractions;
 
 
-namespace Produtos.Application.Mappers
+namespace ProdutosApi.Application.Mappers
 {
     [Mapper]
     public partial class PedidoMapper

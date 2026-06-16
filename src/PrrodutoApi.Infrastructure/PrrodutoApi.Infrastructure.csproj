@@ -12,8 +12,8 @@
     <PackageReference Include="MongoDB.Driver" Version="3.9.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Produtos.Application\Produtos.Application.csproj" />
+  <ItemGroup>    
+    <ProjectReference Include="..\ProdutosApi.Application\ProdutosApi.Application.csproj" />
   </ItemGroup>
 
 </Project>

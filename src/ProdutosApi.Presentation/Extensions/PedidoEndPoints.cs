@@ -1,5 +1,5 @@
-﻿using Produtos.Application.DTOs;
-using Produtos.Application.Handlers;
+﻿using ProdutosApi.Application.DTOs;
+using ProdutosApi.Application.Handlers;
 using Wolverine;
 
 namespace ProdutosApi.Presentation.Extensions

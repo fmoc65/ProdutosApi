@@ -1,11 +1,11 @@
-﻿using Produtos.Application.DTOs;
-using Produtos.Application.Mappers;
+﻿using ProdutosApi.Application.DTOs;
+using ProdutosApi.Application.Mappers;
 using ProdutosApi.Domain.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Produtos.Application.Handlers;
+namespace ProdutosApi.Application.Handlers;
 
 public record ListarPedidosQuery;
 public class ListarPedidosHandler

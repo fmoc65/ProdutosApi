@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Produtos.Application.DTOs;
+namespace ProdutosApi.Application.DTOs;
 
 public record PedidoResponse(
     string Id,
